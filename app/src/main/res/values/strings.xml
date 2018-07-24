@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Muzik</string>
+    <string name="playlist">Playlist</string>
+    <string name="top_songs">Hits Only</string>
+    <string name="your_songs">Your Favs</string>
+    <string name="home">Home</string>
+    <string name="play">Play</string>
+</resources>

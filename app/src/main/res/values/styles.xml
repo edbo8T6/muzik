@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for Section Titles Text View-->
+    <style name="section_title" parent="@style/Theme.AppCompat">
+        <!-- Font Size -->
+        <item name="android:textSize">20sp</item>
+        <!-- Font Color -->
+        <item name="android:textColor">@color/blue</item>
+        <!-- Font Family -->
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <!-- Font Style -->
+        <item name="android:textStyle">bold</item>
+        <!-- Text View Left Margin-->
+        <item name="android:layout_marginLeft">25dp</item>
+        <!-- Text View Left Padding-->
+        <item name="android:paddingLeft">5dp</item>
+        <!-- Text View Right Padding-->
+        <item name="android:paddingRight">5dp</item>
+        <!-- Text View Transperancy-->
+        <item name="android:alpha">.75</item>
+    </style>
+
+    <!-- Style for Cover Art for Music Image View-->
+    <style name="cover_art" parent="@style/Theme.AppCompat">
+        <!-- Margin Left -->
+        <item name="android:layout_marginLeft">5dp</item>
+        <!-- Margin Right -->
+        <item name="android:layout_marginRight">5dp</item>
+        <!-- Image Scale Type -->
+        <item name="android:scaleType">fitStart</item>
+        <!-- Margin Top -->
+        <item name="android:layout_marginTop">15dp</item>
+        <!-- Margin Bottom -->
+        <item name="android:layout_marginBottom">15dp</item>
+        <!-- Layout Weight -->
+        <item name="android:layout_weight">1</item>
+        <!-- Image View Transperancy-->
+        <item name="android:alpha">.75</item>
+    </style>
+
+    <!-- Style for Songs Name and Songs Info-->
+    <style name="menu" parent="@style/Theme.AppCompat">
+        <!-- Text Size -->
+        <item name="android:textSize">15sp</item>
+        <!-- Text Font Family -->
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <!-- Layout Margin Left Side -->
+        <item name="android:layout_marginLeft">10dp</item>
+        <!-- Font Color -->
+        <item name="android:textColor">@color/blue</item>
+        <!-- Text View Transperancy-->
+        <item name="android:alpha">.75</item>
+    </style>
+
+    <!-- Menu Linear Layout Styles-->
+    <style name="menu_linearLayout" parent="@style/Theme.AppCompat">
+        <!-- Layout Transperancy-->
+        <item name="android:alpha">.75</item>
+        <!-- Image Scale Type -->
+        <item name="android:scaleType">fitCenter</item>
+
+    </style>
+
+</resources>
